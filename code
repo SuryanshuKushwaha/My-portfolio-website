@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <style>
+        #blank {
+            margin-left: 50%;
+            border-radius: 50px;
+        }
+
+        .nav {
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            margin-left: 25px;
+            border-radius: 50px;
+        }
+
+        body {
+
+            background-size: cover;
+            background-image: linear-gradient(black, aqua);
+            border-radius: 50px;
+        }
+
+        h2,
+        h3,
+        h1,
+        h4 {
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            border-radius: 50px;
+        }
+
+        #Resume {
+            font-style: normal;
+            background-color: aqua;
+            color: white;
+            border-radius: 50px;
+            padding: 7px;
+            text-decoration: none;
+            font-size: larger;
+            background-color: azure;
+            color: black;
+            box-shadow: 5px 5px 25px 5px aqua;
+        }
+
+        #cover {
+
+            padding: 50px;
+            padding-top: 5px;
+            padding-bottom: 100px;
+            margin: 50px;
+            margin-top: 50px;
+            border: 100px;
+            background-color: black;
+            border-radius: 10px;
+
+        }
+
+        .photo {
+            float: right;
+            clip-path: circle(50% at 50% 50%);
+            background-color: rgb(13, 14, 14);
+            border: 5px solid black;
+        }
+
+        img {
+            border-radius: 300px;
+
+        }
+
+        .app {
+            padding: 10px;
+            text-decoration: none;
+            
+        }
+
+        a:hover {
+            color: aqua;
+        }
+
+        img:hover {
+            box-shadow: 10px 10px 50px 10px aqua;
+         
+        }
+       
+    </style>
+
+</head>
+
+<body>
+    <div id="cover">
+        <h4>Portfolio.</h4>
+        <a id="blank"></a>
+        <a href="http://127.0.0.1:5500/portfolio_site.html#" class="nav">Home<a>
+                <a href="https://www.linkedin.com/in/suryanshu-kushwaha-8779a9249/" class="nav">About</a>
+                <a href="https://www.linkedin.com/in/suryanshu-kushwaha-8779a9249/details/skills/"
+                    class="nav">Skills</a>
+                <a href="https://www.linkedin.com/in/suryanshu-kushwaha-8779a9249/recent-activity/all/"
+                    class="nav">Product</a>
+                <a href="https://www.linkedin.com/in/suryanshu-kushwaha-8779a9249/overlay/contact-info/"
+                    class="nav">Contact</a>
+                <br>
+                <br>
+                <a class="photo">
+                    <img src="mi1.jpg" width="175">
+                </a>
+                <h3>Hello , it's me</h3>
+                <h2><span style="color:aqua; font-weight:bold">Suryanshu Kushwaha</span></h2>
+                <h3>And I'm a <span style="color:aqua">Frontend Developer</span></h3>
+                <br>
+
+                <a href="https://linkedin.com/in/suryanshu-kushwaha-8779a9249/" class="app">
+                    <img src="linkedin_logo.png" width="30" border-radius="30">
+                </a>
+                <a href="https://github.com/SuryanshuKushwaha" class="app">
+                    <img src="github1.png" width="50">
+                </a>
+
+                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=suryanshukishuk123@gmail.com" class="app">
+                    <img src="gmail.jpg" width="30" height="30">
+                </a>
+                <a href="https://www.hackerrank.com/profile/suryanshukishuk1" class="app">
+                    <img src="hackerrank.png" width="30">
+                </a>
+                <br>
+                <br>
+                <a href="https://drive.google.com/file/d/13bosgmxzT6zGQraPSw55MacCNz9qaumm/view?usp=drivesdk
+    " id="Resume"><span style="color:rgb(18, 18, 18) ">Download Resume</span></a>
+    </div>
+</body>
+
+</html>
